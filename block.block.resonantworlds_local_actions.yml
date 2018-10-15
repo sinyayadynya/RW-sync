@@ -1,0 +1,20 @@
+uuid: 772345eb-2190-4c03-b573-fc1b562b4a0a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - resonantworlds
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: resonantworlds_local_actions
+theme: resonantworlds
+region: content
+weight: -1
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

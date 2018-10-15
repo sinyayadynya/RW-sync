@@ -1,0 +1,22 @@
+uuid: eb282415-2a3d-4271-8837-9baa5b4168da
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - resonantworlds
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: resonantworlds_breadcrumbs
+theme: resonantworlds
+region: content
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

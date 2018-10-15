@@ -1,0 +1,22 @@
+uuid: 8766ab3f-ddcb-4779-b8a3-91af89130c0b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - resonantworlds
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: resonantworlds_messages
+theme: resonantworlds
+region: content
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

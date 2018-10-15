@@ -1,0 +1,22 @@
+uuid: 3e41e0ed-c04d-4a83-9250-1986b467dfc2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - resonantworlds
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: resonantworlds_content
+theme: resonantworlds
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

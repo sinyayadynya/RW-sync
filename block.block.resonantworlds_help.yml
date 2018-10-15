@@ -1,0 +1,22 @@
+uuid: 148d79ee-97e7-4c04-bf9c-6554f456f2f0
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - resonantworlds
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: resonantworlds_help
+theme: resonantworlds
+region: content
+weight: -2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

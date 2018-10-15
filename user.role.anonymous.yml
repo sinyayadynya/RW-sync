@@ -1,0 +1,19 @@
+uuid: 571ef732-ee53-4516-a6c0-3038d1b68ae6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'utilisateur anonyme'
+weight: 0
+is_admin: false
+permissions:
+  - 'access checkout'
+  - 'access content'
+  - 'fetch any atom'
+  - 'use manualcrop'
+  - 'view any atom'
+  - 'view any commerce_product entity'
+  - 'view any commerce_product entity of bundle cd'
+  - 'view own entityform'
